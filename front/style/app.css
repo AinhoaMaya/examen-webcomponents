@@ -14,3 +14,7 @@ header{
   display: flex;
   justify-content: space-between;
 }
+
+main{
+  padding: 5rem 0;
+}

@@ -23,7 +23,7 @@ class Logo extends HTMLElement {
           <source srcset="./public/logo.png" type="image/png" media="(min-width: 992px)">
           <source srcset="./public/logo.png" type="image/png" media="(max-width: 601px)">
           <source srcset="./public/logo.png" type="image/png" media="(max-width: 600px)">
-          <img src="./public/logo.png" alt="" title="">
+          <img src="./public/logo.png" alt="logo-ecomall" title="logo ecomall">
         </picture>
       </div>
 
