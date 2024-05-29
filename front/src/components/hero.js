@@ -12,6 +12,11 @@ class Hero extends HTMLElement {
     this.shadow.innerHTML =
       /* html */` 
       <style>
+        img{
+          object-fit: cover;
+          width: 100%;
+        }
+
         .hero{
           display: flex;
           gap: 15rem;
@@ -38,7 +43,7 @@ class Hero extends HTMLElement {
         }
 
         .content-title{
-          max-width: 30rem;
+          max-width: 80%;
         }
 
         .content-icons{
@@ -121,7 +126,7 @@ class Hero extends HTMLElement {
                 <source srcset="./public/elementor.png" type="image/png" media="(max-width: 600px)">
                 <img src="./public/elementor.png" alt="logo-elementor" title="logo elementor">
               </picture>
-              <span>Elementos</span>
+              <span>Elementor</span>
             </div>
             <div class="icon-elite">
               <picture>

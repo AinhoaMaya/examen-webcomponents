@@ -24,8 +24,3 @@ main{
   justify-content: center;
   flex: 1;
 }
-
-img{
-  object-fit: cover;
-  width: 100%;
-}

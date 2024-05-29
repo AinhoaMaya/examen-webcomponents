@@ -12,9 +12,14 @@ class Logo extends HTMLElement {
     this.shadow.innerHTML =
       /* html */` 
       <style>
-        .logo img{
+        .logo{
           width: 150px;
           cursor: pointer;
+        } 
+        
+        img{
+          object-fit: cover;
+          width: 100%;
         }
       </style>
 
