@@ -12,11 +12,19 @@ class Menu extends HTMLElement {
     this.shadow.innerHTML =
       /* html */` 
       <style>
-        
+        ul, li{
+          list-style-type: none;
+        }
+
+        .menu{
+          display: flex;
+          gap: 2rem;
+          justify-content: center;
+        }
       </style>
 
       <nav>
-        <ul>
+        <ul class="menu">
           <li>Demos</li>
           <li>Shop</li>
           <li>Product</li>
@@ -24,6 +32,8 @@ class Menu extends HTMLElement {
           <li>Documentation</li>
         </ul>
       </nav>
+
+      
       
     `
   }
