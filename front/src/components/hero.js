@@ -14,18 +14,19 @@ class Hero extends HTMLElement {
       <style>
         .hero{
           display: flex;
-          gap: 5rem;
+          gap: 15rem;
         }
 
         .hero-content{
           display: flex;
           flex-direction: column;
-          gap: 2rem;
+          gap: 3rem;
         }
 
         .hero-content h1, h3{
           font-weight: 800;
           text-transform: capitalize;
+          margin: 0;
         }
 
         .hero-content h1{
@@ -37,12 +38,12 @@ class Hero extends HTMLElement {
         }
 
         .content-title{
-          max-width: 20rem;
+          max-width: 30rem;
         }
 
         .content-icons{
           display: flex;
-          gap: 5rem;
+          gap: 3.5rem;
         }
 
         .icon-woocommerce, .icon-elementor, .icon-elite{
@@ -52,10 +53,12 @@ class Hero extends HTMLElement {
 
         .icon-elementor img, .icon-elite img{
           width: 1.5rem;
+          cursor: pointer;
         } 
 
         .icon-woocommerce img{
           width: 2.5rem;
+          cursor: pointer;
         } 
 
         .content-buttons{
@@ -67,6 +70,7 @@ class Hero extends HTMLElement {
           background-color: hsl(216, 100%, 50%);
           border: none;
           border-radius: 0.5rem;
+          cursor: pointer;
           color: hsl(0, 0%, 100%);
           font-size: 13px;
           font-weight: 800;
@@ -75,10 +79,18 @@ class Hero extends HTMLElement {
           text-transform: uppercase;
         }
 
+        .view-button button:hover{
+          background-color: hsl(216, 97%, 55%);
+        }
+
         .buy-button button{
           background-color: hsl(0, 0%, 100%);
           color: hsl(0, 1%, 16%);
           border: 1px solid hsl(0, 1%, 16%);
+        }
+
+        .buy-button button:hover{
+          background-color: hsl(220, 4%, 84%);
         }
       </style>
 
@@ -134,7 +146,7 @@ class Hero extends HTMLElement {
 
         <div class="hero-material">
           <picture>
-            <source srcset="./public/gif.png" type="image/png" media="(min-width: 1200px)">
+            <source srcset="./public/intro-homes-ecomall.gif" type="image/gif" media="(min-width: 1200px)">
             <source srcset="./public/intro-homes-ecomall.gif" type="image/gif" media="(min-width: 992px)">
             <source srcset="./public/intro-homes-ecomall.gif" type="image/gif" media="(max-width: 601px)">
             <source srcset="./public/intro-homes-ecomall.gif" type="image/gif" media="(max-width: 600px)">

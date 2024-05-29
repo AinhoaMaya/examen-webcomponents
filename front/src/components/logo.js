@@ -14,6 +14,7 @@ class Logo extends HTMLElement {
       <style>
         .logo img{
           width: 150px;
+          cursor: pointer;
         }
       </style>
 

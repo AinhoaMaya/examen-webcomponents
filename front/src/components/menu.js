@@ -14,6 +14,7 @@ class Menu extends HTMLElement {
       <style>
         ul, li{
           list-style-type: none;
+          cursor: pointer;
         }
 
         .menu{
