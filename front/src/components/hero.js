@@ -20,6 +20,7 @@ class Hero extends HTMLElement {
         .hero-content{
           display: flex;
           flex-direction: column;
+          gap: 2rem;
         }
 
         .hero-content h1, h3{
@@ -27,8 +28,16 @@ class Hero extends HTMLElement {
           text-transform: capitalize;
         }
 
+        .hero-content h1{
+          font-size: 48px;
+        }
+
         .hero-content h3{
           font-weight: 400;
+        }
+
+        .content-title{
+          max-width: 20rem;
         }
 
         .content-icons{
@@ -51,6 +60,25 @@ class Hero extends HTMLElement {
 
         .content-buttons{
           display: flex;
+          gap: 0.7rem;
+        }
+
+        .view-button button, .buy-button button{
+          background-color: hsl(216, 100%, 50%);
+          border: none;
+          border-radius: 0.5rem;
+          color: hsl(0, 0%, 100%);
+          font-size: 13px;
+          font-weight: 800;
+          outline: none;
+          padding: 0.8rem 2rem;
+          text-transform: uppercase;
+        }
+
+        .buy-button button{
+          background-color: hsl(0, 0%, 100%);
+          color: hsl(0, 1%, 16%);
+          border: 1px solid hsl(0, 1%, 16%);
         }
       </style>
 
@@ -94,7 +122,14 @@ class Hero extends HTMLElement {
               <span>Elite Author</span>
             </div>
           </div>
-          <div class="content-buttons"></div>
+          <div class="content-buttons">
+            <div class="view-button">
+              <button>view demo</button>
+            </div>
+            <div class="buy-button">
+              <button>buy ecomall</button>
+            </div>
+          </div>
         </div>
 
         <div class="hero-material">
