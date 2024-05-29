@@ -18,7 +18,7 @@ class Menu extends HTMLElement {
 
         .menu{
           display: flex;
-          gap: 2rem;
+          gap: 3rem;
           justify-content: center;
         }
       </style>

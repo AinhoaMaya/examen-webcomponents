@@ -7,5 +7,10 @@
 
 body{
   height: 100vh;
-  padding: 1rem;
+  padding: 1rem 5rem;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
 }
