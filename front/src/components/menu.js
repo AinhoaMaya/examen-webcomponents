@@ -15,6 +15,15 @@ class Menu extends HTMLElement {
         
       </style>
 
+      <nav>
+        <ul>
+          <li>Demos</li>
+          <li>Shop</li>
+          <li>Product</li>
+          <li>Features</li>
+          <li>Documentation</li>
+        </ul>
+      </nav>
       
     `
   }
